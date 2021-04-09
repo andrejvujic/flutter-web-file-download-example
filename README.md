@@ -1,16 +1,25 @@
-# flutter_web_file_download_example
+# flutter-web-file-download-example
 
-A new Flutter project.
+This project is an example on how to download
+files using Flutter Web. All the code is located in `lib/main.dart`.
 
-## Getting Started
+## Dependenices
+  The required packages are `http` and `universal_html`, as of April 9th, 2021 the latest versions are:
+  ```
+  http: ^0.13.1
+  universal_html: ^2.0.8
+  ```
+  However you might have to upgrade depending on when you are using this. For latest version of `http` click <a href="https://pub.dev/packages/http/install">here</a> and for `universal_html` click <a href="https://pub.dev/packages/universal_html/install">here</a>.
 
-This project is a starting point for a Flutter application.
+  Note: `universal_html` is optional since you can use the builtin `dart:html` library, but you may get warnings because `dart:html` should be imported in web packages only.
 
-A few resources to get you started if this is your first Flutter project:
+## How to run?
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+To run this project first run `flutter pub get` to install all the dependenices.
+Now you can run the project using `flutter run -d chrome`.
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## About
+Created with 💜 by Andrej Vujić 
+
+## Contact
+<a href="mailto:vujicandrej366@gmail.com">vujicandrej366@gmail.com</a>
