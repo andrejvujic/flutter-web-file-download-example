@@ -11,7 +11,7 @@ files using Flutter Web. All the code is located in `lib/main.dart`.
   ```
   However you might have to upgrade depending on when you are using this. For latest version of `http` click <a href="https://pub.dev/packages/http/install">here</a> and for `universal_html` click <a href="https://pub.dev/packages/universal_html/install">here</a>.
 
-  Note: `universal_html` is optional since you can use the builtin `dart:html` library, but you may get warnings because `dart:html` should be imported in web packages only.
+  Note: `universal_html` is optional since you can use the builtin `dart:html` library, but you may get warnings because `dart:html` should be imported in web packages only. If you want to use `dart:html` you will have to import it in `lib/main.dart`.
 
 ## How to run?
 
